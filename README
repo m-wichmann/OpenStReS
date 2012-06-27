@@ -1,0 +1,25 @@
+==========
+OpenStReS
+=====
+OpenStReS is an free and open-source student response system. It is used in education to let students directly participate in the course.
+
+Since this is still a new project, not all information is accurate, up to date or even existent.
+
+This project consist of a hardware part and a software part. Also there is a server and a client part.
+
+This project is licensed under LGPL version 3.0 or newer. You can find the license at www.gnu.org/licenses/lgpl.html or in the COPYRIGHT file.
+
+==========
+Architecture
+=====
+OpeStReS consists of a server and a client. The Hardware is based on Atmel µC and RFM12 RF modules.
+
+The server uses a RFM12 RF module to communicate with the clients and uses the RS232 port to get the data to a PC.
+
+On the client side a button is used to get the signal from the student and another RFM12 is used to communicate with the server.
+
+
+==========
+Third-Party Code
+=====
+OpenStReS uses the rfm12lib that is licensed under the GPL v2 (http://www.hansinator.de/rfm12lib/).

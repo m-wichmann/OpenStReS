@@ -15,6 +15,7 @@ OBJCOPY     = avr-objcopy
 OBJCOPYFLAGS= -O ihex $(TARGET).elf $(TARGET).ihex
 
 AVRDUDE		= avrdude
+# TODO: create target to burn fuses
 DUDEFLAGS	= -v -p m16 -c stk500 -P /dev/ttyUSB0 -U $(TARGET).ihex
 
 all: $(TARGET).elf

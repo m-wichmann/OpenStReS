@@ -40,10 +40,12 @@ int main(void) {
 
 	while (1) {
 
-        rfm12_tx (sizeof(teststring), packettype, teststring);
-        rfm12_tick();
+
+
 
 		if (BUTTON) {
+            rfm12_tx (sizeof(teststring), packettype, teststring);
+            rfm12_tick();
 			LED0_ON();
 		}
 		else {

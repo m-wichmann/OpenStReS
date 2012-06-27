@@ -4,7 +4,7 @@
 #include <string.h>
 #include <avr/sleep.h>
 
-#include "clicker.h"
+#include "client.h"
 #include "rfm12.h"
 
 

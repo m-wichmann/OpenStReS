@@ -40,9 +40,6 @@ int main(void) {
 
 	while (1) {
 
-
-
-
 		if (BUTTON) {
             rfm12_tx (sizeof(teststring), packettype, teststring);
             rfm12_tick();

@@ -7,12 +7,12 @@ int main(void);
 
 
 
-#define LED0_ON() PORTB &= ~(1<<PB0)
-#define LED0_OFF() PORTB |= (1<<PB0)
-#define LED0_TOGGLE() PORTB ^= (1<<PB0)
-#define LED1_ON() PORTB &= ~(1<<PB1)
-#define LED1_OFF() PORTB |= (1<<PB1)
-#define LED1_TOGGLE() PORTB ^= (1<<PB1)
+#define LED0_ON() PORTD &= ~(1<<PD4)
+#define LED0_OFF() PORTD |= (1<<PD4)
+#define LED0_TOGGLE() PORTD ^= (1<<PD4)
+#define LED1_ON() PORTD &= ~(1<<PD5)
+#define LED1_OFF() PORTD |= (1<<PD5)
+#define LED1_TOGGLE() PORTD ^= (1<<PD5)
 
 
 
